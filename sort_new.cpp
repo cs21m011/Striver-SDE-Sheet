@@ -10,9 +10,9 @@ int main(){
     vector<int> v={6,5,4,3,2};
     
     newSort(v);
-    for(int i=0;i<v.size();i++){
+    for(int i=0;i<v.size();i++)
         cout << v[i] << " ";
-    }
+    
     return 0;
 }
 
